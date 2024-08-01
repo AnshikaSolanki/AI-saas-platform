@@ -18,19 +18,36 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Functionality
 
-## Learn More
+This AI platform can be used to generate images, code, videos, music and conversations.
 
-To learn more about Next.js, take a look at the following resources:
+**** User authentication and registeration is done using Clerk.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+**** openAI and Replica is used to extract the desired data for the user in the generation models.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+**** Stripe is used to handle all the billing events and upgrade webhooks.
 
-## Deploy on Vercel
+**** For database storage prisma db is utilized in the project using MySql.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Visuals of Project
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+![Screenshot 2024-08-02 005332](https://github.com/user-attachments/assets/2a2baf7e-7c26-4c79-84fe-b50175810d9e)
+
+*** Landing Page 
+
+![Screenshot 2024-08-02 005810](https://github.com/user-attachments/assets/d259ac0b-a251-419c-85b4-23a05178a30b)
+
+*** Dashboard Page
+
+![Screenshot 2024-08-02 005932](https://github.com/user-attachments/assets/e397e799-d6e8-4e62-825e-22052e48cf59)
+
+*** Music Generation
+
+
+
+
+
+
+
+
