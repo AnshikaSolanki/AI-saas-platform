@@ -16,19 +16,27 @@ bun dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+
+## Features
+
+==== The features of this AI platform are- ==========================================
+
+     * Conversation
+     * Image Generation
+     * Code Generation
+     * Video Generation
+     * Music Generation
 
 ## Functionality
 
-This AI platform can be used to generate images, code, videos, music and conversations.
 
-**** User authentication and registeration is done using Clerk.
+==== User authentication and registeration is done using Clerk.
 
-**** openAI and Replica is used to extract the desired data for the user in the generation models.
+==== openAI and Replica is used to extract the desired data for the user in the generation models.
 
-**** Stripe is used to handle all the billing events and upgrade webhooks.
+==== Stripe is used to handle all the billing events and upgrade webhooks.
 
-**** For database storage prisma db is utilized in the project using MySql.
+==== For database storage prisma db is utilized in the project using MySql.
 
 ## Visuals of Project
 
